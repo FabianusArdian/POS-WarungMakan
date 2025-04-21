@@ -173,14 +173,6 @@ export default function OrderSummary({
                         <p className="text-sm text-muted-foreground">
                           {formatCurrency(item.price)}
                         </p>
-                        {item.discount && item.discount > 0 && (
-                          <Badge
-                            variant="outline"
-                            className="text-xs bg-green-50 text-green-700"
-                          >
-                            {item.discount}% off
-                          </Badge>
-                        )}
                       </div>
                     </div>
                     <div className="flex items-center space-x-2">
